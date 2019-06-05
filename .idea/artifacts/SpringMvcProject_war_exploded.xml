@@ -1,0 +1,34 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpringMvcProject:war exploded">
+    <output-path>$PROJECT_DIR$/target/SpringMvcProject</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringMvcProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.7.4" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.7.4" />
+          <element id="library" level="project" name="Maven: cglib:cglib:3.1" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:4.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.18" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/SpringMvcProject/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="SpringMvcProject/web/Web" />
+    </root>
+  </artifact>
+</component>
